@@ -1,0 +1,36 @@
+{
+  "name": "APITestFramework",
+  "version": "1.0.0",
+  "description": "API Testing framework using Mocha and Chai",
+  "scripts": {
+    "lint": "eslint ./test/**/*.js --fix",
+    "test": "mocha -t 30000 test/modules/**/*.js --retries 1 -exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Mocha API Test Framework"
+  },
+  "author": "Shrey Shah",
+  "license": "ISC",
+  
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chai": "^4.3.0",
+    "chai-exclude": "^2.0.2",
+    "chai-subset": "^1.6.0",
+    "console-log-level": "^1.4.1",
+    "deep-equal": "^2.0.5",
+    "deep-equal-in-any-order": "^1.0.28",
+    "delay": "^5.0.0",
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "mocha": "^8.3.0",
+    "mochawesome": "^6.2.2",
+    "moment": "^2.29.1",
+    "prettier": "^2.2.1",
+    "uuid-mongodb": "^2.4.2"
+  }
+}
