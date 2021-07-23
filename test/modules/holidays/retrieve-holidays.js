@@ -11,7 +11,7 @@ const { getRequest, } = require('../../seed-data/seed-data-manager').seedData;
 const { GetHolidayAPI, } = require('../../utils/constants').constants;
 const { getHolidays, } = require('./test-data/test-data-holidays').testData;
 
-var countries = ["AT", "CA", 'BR', 'CH'];
+var countries : string[] = ["AT", "CA", 'BR', 'CH'];
 
 describe(' get Holidays tests', async () => {
 

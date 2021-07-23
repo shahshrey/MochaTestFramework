@@ -2,7 +2,7 @@
  *   get Holidays Data
  */
 
-const getHolidays = {
+const getHolidays : any = {
     request: {
 
     },
