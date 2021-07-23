@@ -9,11 +9,11 @@
  * @description    :  Constants file to manage and organize all constants.
  *================================================================================================* */
 
-const baseURI = `https://date.nager.at/api/v3`
+const baseURI : string = `https://date.nager.at/api/v3`
 
 /* ============================================ Holiday APIs  ============================================ */
 
-const GetHolidayAPI = (year, countryCode) => `${baseURI}/publicholidays/${year}/${countryCode}`
+const GetHolidayAPI : any = (year, countryCode) => `${baseURI}/publicholidays/${year}/${countryCode}`
 
 
 module.exports.constants = {

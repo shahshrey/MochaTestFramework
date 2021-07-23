@@ -41,8 +41,8 @@ function verifyJsonContainsKey(json, keysArray) {
 }
 
 async function removePropFromJSON(jsonObject, propsToBeRemoved) {
-    const json = jsonObject;
-    for (let i = 0; i < propsToBeRemoved.length; i += 1) {
+    const json : any = jsonObject;
+    for (let i : number = 0; i < propsToBeRemoved.length; i += 1) {
         delete json[propsToBeRemoved[i]];
     }
     return json;
